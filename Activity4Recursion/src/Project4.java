@@ -1,4 +1,4 @@
-import Recursion.*;
+import recursion.*;
 
 public class Project4 {
 
@@ -17,7 +17,7 @@ public class Project4 {
 		/* Test Euclid's algorithm */
 		System.out.println("\n\nGCD:");
 		System.out.println ("GCD of 96 and 60 is " + Recursion.gcd(96, 60));
-		System.out.println ("GCD of 30 and 10 is " + Recursion.gcd(15, 10));
+		System.out.println ("GCD of 30 and 10 is " + Recursion.gcd(30, 10));
 		System.out.println ("GCD of 96 and 120 is " + Recursion.gcd(96, 120));
 		System.out.println();
 
