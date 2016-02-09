@@ -35,6 +35,14 @@ public class Project4 {
 			System.out.println();
 		}
 
+		// Test balance function 
+		System.out.println("Balance 10 20 = " + Recursion.balance(10, 20));
+		System.out.println("Balance 20 10 = " + Recursion.balance(20, 10));
+		System.out.println("Balance 10 21 = " + Recursion.balance(10, 21));
+		System.out.println("Balance 21 10 = " + Recursion.balance(21, 10));
+		System.out.println("Balance 10 11 = " + Recursion.balance(10, 11));
+		System.out.println("Balance 10 10 = " + Recursion.balance(10, 11));
+
 		// Test the Ackerman function 
 		System.out.println("\nAckerman:");
 		for (int ii = 0; ii<4; ii ++)
