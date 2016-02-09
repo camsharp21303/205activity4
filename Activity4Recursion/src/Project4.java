@@ -3,18 +3,22 @@ import recursion.*;
 public class Project4 {
 
 	public static void main(String[] args) {
-		System.out.println("Test Activity 4:");
+		System.out.println("Test Activity 4 & Project 4:");
+		
+/*		Uncomment this block of code to test 
+		// Test factorial
 		System.out.println("Factorial:");
 		for (int ii = 0; ii<10; ii ++) {
 			System.out.print(Recursion.fact(ii) + "   ");
 		}
 
+		// Test fibonacci
 		System.out.println("\n\nFibonacci:");
 		for (int ii = 0; ii<10; ii ++) {
 			System.out.print(Recursion.fib(ii) + "   ");
 		}
 
-		/* Test Euclid's algorithm */
+		// Test Euclid's GCD algorithm 
 		System.out.println("\n\nGCD:");
 		System.out.println ("GCD of 96 and 60 is " + Recursion.gcd(96, 60));
 		System.out.println ("GCD of 30 and 10 is " + Recursion.gcd(30, 10));
@@ -31,7 +35,7 @@ public class Project4 {
 			System.out.println();
 		}
 
-		/* Test the Ackerman function */
+		// Test the Ackerman function 
 		System.out.println("\nAckerman:");
 		for (int ii = 0; ii<4; ii ++)
 		{
@@ -41,7 +45,7 @@ public class Project4 {
 			}
 			System.out.println();
 		}
-
+*/
 	}
 
 }
