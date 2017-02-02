@@ -1,5 +1,7 @@
 package recursion;
 
+import java.util.Scanner;
+
 public class Recursion {
 
 	// Class example
@@ -37,5 +39,7 @@ public class Recursion {
 	// Project 4 balance(int x, int y)
 	
     // Project 4 int ack(int m, int n) 
+	
+	// Project 4 playGuessingGame(int m);
 
 }

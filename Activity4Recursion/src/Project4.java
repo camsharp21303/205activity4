@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 import recursion.*;
 
 public class Project4 {
@@ -5,7 +7,7 @@ public class Project4 {
 	public static void main(String[] args) {
 		System.out.println("Test Activity 4 & Project 4:");
 		
-/*		Uncomment this block of code to test 
+/*		Uncomment this block of code to test Activity 4
 		// Test factorial
 		System.out.println("Factorial:");
 		for (int ii = 0; ii<10; ii ++) {
@@ -24,8 +26,9 @@ public class Project4 {
 		System.out.println ("GCD of 30 and 10 is " + Recursion.gcd(30, 10));
 		System.out.println ("GCD of 96 and 120 is " + Recursion.gcd(96, 120));
 		System.out.println();
+*/
 
-		
+/*		Uncomment this block of code to test Project 4
 		System.out.println("Test Project 4:");
 		System.out.println("Power:");
 		for (int ii = 0; ii<4; ii ++) {
@@ -53,7 +56,18 @@ public class Project4 {
 			}
 			System.out.println();
 		}
+	
+		System.out.println("\nGuessing game:");
+		// Try-with-resources automatically closes the resources opened
+		try (
+			Scanner scan = new Scanner(System.in);
+			) {
+			System.out.print ("How high should I go?  ");
+			int upTo = scan.nextInt();
+			Recursion.playGuessingGame(upTo);
+		}
 */
+
 	}
 
 }
