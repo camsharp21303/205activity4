@@ -6,8 +6,8 @@ public class Recursion {
 
 	// Class example
 	public static int sum_up(int n) {
-		if (n <=1 ) {
-			return 1;
+		if (n <=0 ) {
+			return 0;
 		}
 		else {
 			return n + sum_up(n-1);
