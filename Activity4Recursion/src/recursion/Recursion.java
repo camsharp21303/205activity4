@@ -40,6 +40,6 @@ public class Recursion {
 	
     // Project 4 int ack(int m, int n) 
 	
-	// Project 4 playGuessingGame(int m);
+	// Project 4 playGuessingGame(int m)
 
 }

@@ -8,19 +8,18 @@ public class Project4 {
 		System.out.println("Test Activity 4 & Project 4:");
 		
 /*		Uncomment this block of code to test Activity 4
-		// Test factorial
+		System.out.println("Test Activity 4:");
 		System.out.println("Factorial:");
-		for (int ii = 0; ii<10; ii ++) {
+		for (int ii = 1; ii<10; ii ++) {
 			System.out.print(Recursion.fact(ii) + "   ");
 		}
 
-		// Test fibonacci
 		System.out.println("\n\nFibonacci:");
-		for (int ii = 0; ii<10; ii ++) {
+		for (int ii = 1; ii<10; ii ++) {
 			System.out.print(Recursion.fib(ii) + "   ");
 		}
 
-		// Test Euclid's GCD algorithm 
+		// Test Euclid's algorithm 
 		System.out.println("\n\nGCD:");
 		System.out.println ("GCD of 96 and 60 is " + Recursion.gcd(96, 60));
 		System.out.println ("GCD of 30 and 10 is " + Recursion.gcd(30, 10));
