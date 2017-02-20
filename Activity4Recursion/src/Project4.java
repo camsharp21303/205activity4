@@ -58,8 +58,8 @@ public class Project4 {
 		System.out.println("Balance 10 11 = " + Recursion.balance(10, 11));
 		System.out.println("Balance 10 10 = " + Recursion.balance(10, 11));
 
-		// Test the Ackerman function 
-		System.out.println("\nAckerman:");
+		// Test the Ackermann function 
+		System.out.println("\nAckermann:");
 		for (int ii = 0; ii<4; ii ++)
 		{
 			for (int jj = 0; jj < 5; jj++)
