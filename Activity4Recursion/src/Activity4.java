@@ -1,5 +1,9 @@
-import recursion.Recursion;
+import java.util.Scanner;
+import recursion.*;
 
+public class Activity4 {
+
+public static void main(String[] args) {
 //		Uncomment this block of code to test Activity 4
 /*
 		System.out.println("\n\nActivity 4:");
@@ -31,3 +35,5 @@ import recursion.Recursion;
 			System.out.println();
 		}
 */
+	}
+}
