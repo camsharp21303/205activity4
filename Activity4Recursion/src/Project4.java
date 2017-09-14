@@ -36,7 +36,11 @@ public class Project4 {
 		System.out.println ("GCD of 30 and 10 is " + Recursion.gcd(30, 10));
 		System.out.println ("GCD of 96 and 120 is " + Recursion.gcd(96, 120));
 
-		// Uncomment out this block of code to test Project 4
+*/
+		
+//		Uncomment this block of code to test Project 4
+/*
+		// Test power function
 		System.out.println("\n\nTest Project 4:");
 		System.out.println("Power:");
 		for (int ii = 1; ii<4; ii ++) {
@@ -45,10 +49,7 @@ public class Project4 {
 			}
 			System.out.println();
 		}
-*/
 		
-//		Uncomment this block of code to test Project 4
-/*
 		// Test balance function 
 		System.out.println("\nBalance:");
 		System.out.println("Balance 10 20 = " + Recursion.balance(10, 20));
