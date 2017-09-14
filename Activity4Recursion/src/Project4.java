@@ -47,7 +47,7 @@ public class Project4 {
 		}
 */
 		
-//		Uncomment this block of code to test Activity 4
+//		Uncomment this block of code to test Project 4
 /*
 		// Test balance function 
 		System.out.println("\nBalance:");
@@ -56,7 +56,7 @@ public class Project4 {
 		System.out.println("Balance 10 21 = " + Recursion.balance(10, 21));
 		System.out.println("Balance 21 10 = " + Recursion.balance(21, 10));
 		System.out.println("Balance 10 11 = " + Recursion.balance(10, 11));
-		System.out.println("Balance 10 10 = " + Recursion.balance(10, 11));
+		System.out.println("Balance 10 10 = " + Recursion.balance(10, 10));
 
 		// Test the Ackermann function 
 		System.out.println("\nAckermann:");
