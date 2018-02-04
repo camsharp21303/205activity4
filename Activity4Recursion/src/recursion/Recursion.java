@@ -1,9 +1,7 @@
 package recursion;
 
-import java.util.Scanner;
-
 public class Recursion {
-
+	
 	// Class example
 	public static int sum_up(int n) {
 		if (n <=0 ) {
@@ -13,8 +11,7 @@ public class Recursion {
 			return n + sum_up(n-1);
 		}
 	}
-	
-	// Class example
+
 	public static int sum_up_tail(int n) {
 		return sum_up_tail(n, 0);
 	}
@@ -27,19 +24,27 @@ public class Recursion {
 		}
 	}
 	
-	// Activity 4 int fact(int n) 
-	
-	// Activity 4 int fib(int n) 
-	
-	// Activity 4 int gcd(int num1, int num2)
+    public static int fact (int n)
+    {
+        int ret;
+         
+        if (n <= 1)
+            ret = 1;
+        else
+            ret = n * fact(n-1);
+         
+        return ret;
+    }
+     
+    // Activity 4 
+    // public static int fib (int n)
+    // public static int gcd(int num1, int num2)
+    // public static int power (int x, int y)
 
-
-	// Project 4 int power (int x, int y)
-	
-	// Project 4 balance(int x, int y)
-	
-	// Project 4 int Ackermann(int m, int n) 
-	
-	// Project 4 playGuessingGame(int m)
-
+    // Project 4 
+    // public static int balance (int x, int y)
+    // public static int Ackermann(int m, int n)
+	// public static double pi_approximation(int n)
+	// public static double pi_approximation_helper (int n, double pi)
+	// public static void collatz(int n)
 }
