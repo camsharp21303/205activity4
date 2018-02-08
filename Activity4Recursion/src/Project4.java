@@ -49,11 +49,7 @@ public class Project4 {
 		System.out.print("[30 & 10] " + Recursion.gcd(30, 10) + "    ");
 		System.out.print("[96 & 120] " + Recursion.gcd(96, 120) + "    ");
 		System.out.println();
-*/
 		
-//		Uncomment this block of code to test Project 4
-//		Comment out any function calls that do not work
-/*
 		// Test power function
 		System.out.println();
 		System.out.println("Test Project 4:");
@@ -64,6 +60,12 @@ public class Project4 {
 			}
 			System.out.println();
 		}
+*/
+		
+//		Uncomment this block of code to test Project 4
+//		Comment out any function calls that do not work
+/*
+
 		System.out.println();
 		
 		// Test balance function 

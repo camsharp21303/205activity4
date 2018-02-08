@@ -21,17 +21,18 @@ public class Activity4 {
 		}
 		System.out.println();
 
-//		Uncomment the following block of code to test Activity 4
-//		Comment out any function calls that do not work
-/*
 		System.out.println();
-		System.out.println("Activity 4:");
-		// Test factorial
 		System.out.println("Factorial:");
 		for (Integer ii : testValues) {
 			System.out.print(Recursion.fact(ii) + "   ");
 		}
 		System.out.println();
+		
+//		Uncomment the following block of code to test Activity 4
+//		Comment out any function calls that do not work
+/*
+		System.out.println("Activity 4:");
+
 
 		// Test fibonacci
 		System.out.println();
@@ -48,6 +49,17 @@ public class Activity4 {
 		System.out.print("[30 & 10] " + Recursion.gcd(30, 10) + "    ");
 		System.out.print("[96 & 120] " + Recursion.gcd(96, 120) + "    ");
 		System.out.println();
+		
+		// Test power function
+		System.out.println();
+		System.out.println("Test Project 4:");
+		System.out.println("Power:");
+		for (Integer ii : testValues) {
+			for (int jj = 0; jj<6; jj ++)  {
+				System.out.print(ii + "^" + jj + "=" + Recursion.power(ii,jj) + "   ");
+			}
+			System.out.println();
+		}
 */
 	}
 }
