@@ -22,6 +22,13 @@ public class Activity4 {
 		System.out.println();
 
 		System.out.println();
+		System.out.println("print_up_to:");
+		for (Integer ii : testValues) {
+			System.out.print("[" + ii + "]: ");
+			Recursion.print_up_to(ii);
+		}
+
+		System.out.println();
 		System.out.println("Factorial:");
 		for (Integer ii : testValues) {
 			System.out.print(Recursion.fact(ii) + "   ");
@@ -32,7 +39,6 @@ public class Activity4 {
 //		Comment out any function calls that do not work
 /*
 		System.out.println("Activity 4:");
-
 
 		// Test fibonacci
 		System.out.println();

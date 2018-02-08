@@ -16,14 +16,28 @@ public class Recursion {
 		return sum_up_tail(n, 0);
 	}
 	public static int sum_up_tail(int n, int tmp) {
-		if (n <1 ) {
+		if (n < 1 ) {
 			return tmp;
 		}
 		else {
 			return sum_up_tail(n-1, tmp+n);
 		}
 	}
-	
+    
+    public static void print_up_to(int n) {
+    	if (n >= 1) {
+    		print_up_to(n, 1);
+    	}
+    	System.out.println();
+    }
+    	
+    public static void print_up_to(int n, int current) {
+    	System.out.print(current + " ");
+    	if (n > 1) {
+    		print_up_to(n-1, current+1);
+    	}
+    }
+    
     public static int fact (int n)
     {
         int ret;
