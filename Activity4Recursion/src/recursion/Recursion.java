@@ -2,7 +2,7 @@ package recursion;
 
 public class Recursion {
 	
-	// Class example
+	// Class examples
 	public static int sum_up(int n) {
 		if (n <=0 ) {
 			return 0;
@@ -31,7 +31,7 @@ public class Recursion {
     	System.out.println();
     }
     	
-    public static void print_up_to(int n, int current) {
+    private static void print_up_to(int n, int current) {
     	System.out.print(current + " ");
     	if (n > 1) {
     		print_up_to(n-1, current+1);

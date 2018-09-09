@@ -27,12 +27,6 @@ public class Project4 {
 /*
 		System.out.println();
 		System.out.println("Activity 4:");
-		// Test factorial
-		System.out.println("Factorial:");
-		for (Integer ii : testValues) {
-			System.out.print(Recursion.fact(ii) + "   ");
-		}
-		System.out.println();
 
 		// Test fibonacci
 		System.out.println();
@@ -52,7 +46,6 @@ public class Project4 {
 		
 		// Test power function
 		System.out.println();
-		System.out.println("Test Project 4:");
 		System.out.println("Power:");
 		for (Integer ii : testValues) {
 			for (int jj = 0; jj<6; jj ++)  {
