@@ -3,53 +3,53 @@ package recursion;
 public class Recursion {
 	
 	// Class examples
+	// Sum up to N
 	public static int sum_up(int n) {
-		if (n <=0 ) {
+		// Base case
+		if (n <= 0) {
 			return 0;
 		}
-		else {
-			return n + sum_up(n-1);
-		}
+		// Recursive case
+	    return n + sum_up (n-1);
 	}
-
+	
+	// Tail-recursion
 	public static int sum_up_tail(int n) {
 		return sum_up_tail(n, 0);
 	}
 	public static int sum_up_tail(int n, int tmp) {
-		if (n < 1 ) {
+		if (n < 1) {
 			return tmp;
 		}
 		else {
 			return sum_up_tail(n-1, tmp+n);
 		}
 	}
-    
-    public static void print_up_to(int n) {
-    	if (n >= 1) {
-    		print_up_to(n, 1);
-    	}
-    	System.out.println();
-    }
-    	
-    private static void print_up_to(int n, int current) {
-    	System.out.print(current + " ");
-    	if (n > 1) {
-    		print_up_to(n-1, current+1);
-    	}
-    }
-    
-    public static int fact (int n)
-    {
-        int ret;
-         
-        if (n <= 1)
-            ret = 1;
-        else
-            ret = n * fact(n-1);
-         
-        return ret;
-    }
-     
+	
+	// Print up to n
+	public static void print_up_to(int n) {
+		if (n >= 1) {
+			print_up_to(n, 1);
+		}
+		System.out.println();
+	}
+	public static void print_up_to(int n, int current) {
+		System.out.println(current + " ");
+		if (n > 1) {
+			print_up_to(n-1, current + 1);
+		}
+	}
+	
+	// Factorial
+	public static int fact(int n) {
+		if (n <= 1) {
+			return 1;
+		}
+		else {
+			return n * fact(n-1);
+		}
+	}
+	
     // Activity 4 
     // public static int fib (int n)
     // public static int gcd(int num1, int num2)
