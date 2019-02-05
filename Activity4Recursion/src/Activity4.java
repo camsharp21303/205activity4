@@ -20,24 +20,6 @@ public class Activity4 {
 			System.out.print("[" + ii + "]: " + Recursion.sum_up_tail(ii) + "   ");
 		}
 		System.out.println();
-
-		System.out.println();
-		System.out.println("print_up_to:");
-		for (Integer ii : testValues) {
-			System.out.print("[" + ii + "]: ");
-			Recursion.print_up_to(ii);
-		}
-
-		System.out.println();
-		System.out.println("Factorial:");
-		for (Integer ii : testValues) {
-			System.out.print(Recursion.fact(ii) + "   ");
-		}
-		System.out.println();
-		
-//		Uncomment the following block of code to test Activity 4
-//		Comment out any function calls that do not work
-/*
 		System.out.println("Activity 4:");
 
 		// Test fibonacci
@@ -48,14 +30,6 @@ public class Activity4 {
 		}
 		System.out.println();
 
-		// Test Euclid's GCD algorithm 
-		System.out.println();
-		System.out.println("GCD:");
-		System.out.print("[96 & 60] " + Recursion.gcd(96, 60) + "    ");
-		System.out.print("[30 & 10] " + Recursion.gcd(30, 10) + "    ");
-		System.out.print("[96 & 120] " + Recursion.gcd(96, 120) + "    ");
-		System.out.println();
-		
 		// Test power function
 		System.out.println();
 		System.out.println("Power:");
@@ -65,6 +39,13 @@ public class Activity4 {
 			}
 			System.out.println();
 		}
-*/
+
+		// Test triangle method
+		System.out.println();
+		System.out.println("Triangle");
+		Recursion.triangle(2);
+		System.out.println();
+		Recursion.triangle(4);
+		
 	}
 }

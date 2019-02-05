@@ -2,23 +2,21 @@ package recursion;
 
 public class Recursion {
 	
-	// Class examples
-	// Sum up to N
+	// Class example
 	public static int sum_up(int n) {
-		// Base case
-		if (n <= 0) {
+		if (n <=0 ) {
 			return 0;
 		}
-		// Recursive case
-	    return n + sum_up (n-1);
+		else {
+			return n + sum_up(n-1);
+		}
 	}
-	
-	// Tail-recursion
+
 	public static int sum_up_tail(int n) {
 		return sum_up_tail(n, 0);
 	}
 	public static int sum_up_tail(int n, int tmp) {
-		if (n < 1) {
+		if (n <1 ) {
 			return tmp;
 		}
 		else {
@@ -26,39 +24,53 @@ public class Recursion {
 		}
 	}
 	
-	// Print up to n
-	public static void print_up_to(int n) {
-		if (n >= 1) {
-			print_up_to(n, 1);
-		}
-		System.out.println();
-	}
-	public static void print_up_to(int n, int current) {
-		System.out.println(current + " ");
-		if (n > 1) {
-			print_up_to(n-1, current + 1);
-		}
-	}
-	
-	// Factorial
-	public static int fact(int n) {
-		if (n <= 1) {
-			return 1;
-		}
-		else {
-			return n * fact(n-1);
-		}
-	}
-	
-    // Activity 4 
-    // public static int fib (int n)
-    // public static int gcd(int num1, int num2)
-    // public static int power (int x, int y)
+    public static int fact (int n)
+    {
+        int ret;
+         
+        if (n <= 1)
+            ret = 1;
+        else
+            ret = n * fact(n-1);
+         
+        return ret;
+    }
+     
+    // Activity 4 int fib(int n) 
+    public static int fib (int n)
+    {
+    	return 0;
+    }
+     
+    // Activity 4 int power (int x, int y)
+    public static int power (int x, int y) {
+    	return 0;
+    }
+     
+    // Activity 4 int triangle(int x)
+    public static void triangle(int height)
+    {
+    }
+ 
+    // Project 4    public static int balance (int x, int y)
+    public static int balance (int x, int y) {
+		return 0;
+    }
+     
+    // Project 4    public static int Ackermann(int m, int n) 
+    public static int Ackermann(int m, int n) {
+		return 0;
+    }
 
-    // Project 4 
-    // public static int balance (int x, int y)
-    // public static int Ackermann(int m, int n)
-	// public static double pi_approximation(int n)
-	// public static double pi_approximation_helper (int n, double pi)
-	// public static void collatz(int n)
+	
+	// Project 4 pi_approximation(int m)
+	public static double pi_approximation(int n) {
+		return 0;
+	}
+
+	// Project 4 longestSubsequence(String s) 
+	public static int lengthOfLongestSubsequence(String a, String b) {
+		return 0;
+	}
+
 }

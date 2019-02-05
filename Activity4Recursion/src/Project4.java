@@ -1,6 +1,5 @@
 import java.util.Arrays;
 import java.util.List;
-
 import recursion.*;
 
 public class Project4 {
@@ -21,11 +20,6 @@ public class Project4 {
 			System.out.print("[" + ii + "]: " + Recursion.sum_up_tail(ii) + "   ");
 		}
 		System.out.println();
-
-//		Uncomment the following block of code to test Activity 4
-//		Comment out any function calls that do not work
-/*
-		System.out.println();
 		System.out.println("Activity 4:");
 
 		// Test fibonacci
@@ -36,14 +30,6 @@ public class Project4 {
 		}
 		System.out.println();
 
-		// Test Euclid's GCD algorithm 
-		System.out.println();
-		System.out.println("GCD:");
-		System.out.print("[96 & 60] " + Recursion.gcd(96, 60) + "    ");
-		System.out.print("[30 & 10] " + Recursion.gcd(30, 10) + "    ");
-		System.out.print("[96 & 120] " + Recursion.gcd(96, 120) + "    ");
-		System.out.println();
-		
 		// Test power function
 		System.out.println();
 		System.out.println("Power:");
@@ -53,14 +39,16 @@ public class Project4 {
 			}
 			System.out.println();
 		}
-*/
+
+		// Test triangle method
+		System.out.println();
+		System.out.println("Triangle");
+		Recursion.triangle(2);
+		System.out.println();
+		Recursion.triangle(4);
 		
-//		Uncomment this block of code to test Project 4
-//		Comment out any function calls that do not work
-/*
 
 		System.out.println();
-		
 		// Test balance function 
 		System.out.println("Balance:");
 		System.out.print("[10 20]: " + Recursion.balance(10, 20) + "    ");
@@ -84,15 +72,8 @@ public class Project4 {
 			}
 			System.out.println();
 		}
-		System.out.println();
-
-		System.out.println("Collatz:");
-		testValues = Arrays.asList(1, 5, 19);
-		for(Integer ii : testValues) {
-			System.out.print("[" + ii + "] : ");
-			Recursion.collatz(ii);
-		}
 		
+		// Test the Pi approximation function 
 		System.out.println();
 		testValues = Arrays.asList(5, 20, 50);
 		System.out.println("Pi:");
@@ -101,6 +82,19 @@ public class Project4 {
 					String.format("%.3f", Recursion.pi_approximation(ii)) +
 					"     ");
 		}
-*/
+		System.out.println();
+
+		// Test the Longest Substring function 
+		System.out.println();
+		System.out.println("Length of longest substring:");
+		String a1 = "aaacsc250bbb";
+		String b1 = "xxxcsc250yyy";
+		System.out.println("Substring length of " + a1 + " and " + b1 + " is " + Recursion.lengthOfLongestSubsequence(a1, b1));
+		a1 = "aaabbbccc";
+		b1 = "xxxyyyzzz";
+		System.out.println("Substring length of " + a1 + " and " + b1 + " is " + Recursion.lengthOfLongestSubsequence(a1, b1));
+		a1 = "aaabbbccc";
+		b1 = "xxxyyyaaa";
+		System.out.println("Substring length of " + a1 + " and " + b1 + " is " + Recursion.lengthOfLongestSubsequence(a1, b1));
 	}
 }
