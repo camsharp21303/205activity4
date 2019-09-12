@@ -22,7 +22,7 @@ public class Project4 {
 		System.out.println();
 		System.out.println("Activity 4:");
 
-		// Test fibonacci
+		// Test Fibonacci
 		System.out.println();
 		System.out.println("Fibonacci:");
 		for (Integer ii : testValues) {
