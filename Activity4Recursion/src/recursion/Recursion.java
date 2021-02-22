@@ -77,23 +77,37 @@ public class Recursion {
  
     // Project 4    public static int balance (int x, int y)
     public static int balance (int x, int y) {
-		return 0;
+    	return 0;
     }
      
     // Project 4    public static int Ackermann(int m, int n) 
     public static int Ackermann(int m, int n) {
+    	if(m == 0) {
+    		return n + 1;
+    	}
+    	else if(m > 0 && n == 0) {
+    		return Ackermann(m - 1, 1);
+    	}
+    	else if(m > 0 && n > 0) {
+    		return Ackermann(m-1,Ackermann(m,n-1));
+    	}
 		return 0;
     }
 
 	
 	// Project 4 pi_approximation(int m)
 	public static double pi_approximation(int n) {
-		return 0;
+		if(n > 0) {
+			return pi_approximation(n-1) + 4*Math.pow(-1, n+1)/(2*n-1);
+		}
+		else return 0;
 	}
 
 	// Project 4 longestSubsequence(String s) 
 	public static int lengthOfLongestSubsequence(String a, String b) {
-		return 0;
+		if(a.length() == 0 || b.length() == 0) return 0;
+		else if(a.charAt(0) == b.charAt(0)) return 1+lengthOfLongestSubsequence(a.substring(1), b.substring(1));
+		else return Math.max(lengthOfLongestSubsequence(a, b.substring(1)), lengthOfLongestSubsequence(a.substring(1), b));
 	}
 
 }
